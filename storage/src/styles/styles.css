@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #e0f7fa;
+  padding: 30px;
+  min-height: 100vh;
+}
+
+.storage-container {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 500px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+button {
+  margin: 10px 5px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+button + button {
+  margin-left: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h2 {
+  color: #343a40;
+  font-family: "Arial", sans-serif;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #495057;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: #f0f4f8;
+}

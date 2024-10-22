@@ -1,6 +1,6 @@
 import React from "react";
 import useStorage from "./hooks/useStorage";
-import "./styles.css"; // Import custom styles
+import "./styles/styles.css";
 
 function App() {
   // Using localStorage
